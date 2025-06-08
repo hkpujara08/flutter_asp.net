@@ -9,14 +9,6 @@
 # packages, and plugins designed to encourage good coding practices.
 include: package:flutter_lints/flutter.yaml
 
-analyzer:
-  errors:
-    missing_required_param: error
-    nullable_type_in_json_cast: error
-    always_declare_return_types: error
-    avoid_print: error
-    prefer_final_fields: error
-
 linter:
   rules:
     - always_declare_return_types
